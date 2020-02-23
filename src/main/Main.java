@@ -31,7 +31,7 @@ public class Main {
 			JLabel textLabel = new JLabel("Result is: ", SwingConstants.CENTER);
 		    
 	      
-			JButton button = new JButton("Search!");
+			JButton button = new JButton("Search");
 	        button.addActionListener(new ActionListener() {
 	            @Override
 	            public void actionPerformed(ActionEvent e) {
