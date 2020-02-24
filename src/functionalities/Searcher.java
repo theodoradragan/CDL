@@ -165,14 +165,13 @@ public class Searcher {
 				answer.append(" ");
 			}
 		}
+		if(answer.toString().contentEquals(""))
+			answer.append("No results found");
 		return answer.toString();
 
 	}
 	
 	public String mainFunctionality(String query) {
-		// Input
-		System.out.println("Hello!");
-		
 		// Parsing clear words from input
 		String[] terms = new String[21];
 		terms = query.toLowerCase().split("[ |!()]");
@@ -203,8 +202,6 @@ public class Searcher {
 		
 		// Starting the logical operations
 		Integer[] finalResult = andBetweenFinalTerms(query, occurencies);
-		
-		// Printing result to STDIN (fow now)
 		return getFileNamesFromFinalArray(finalResult);
 	}
 }
