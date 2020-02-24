@@ -26,7 +26,7 @@ The document names ar then fed to the GUI Interface, which is implemented using 
 
 ## Installation
 
-1) Go inside the "CDL Spring 2020" directory.
+1) Go inside the "CDL" directory.
 2) Run setup.sh
 
 ## Usage
