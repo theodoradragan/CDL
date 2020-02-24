@@ -30,7 +30,9 @@ The document names ar then fed to the GUI Interface, which is implemented using 
 2) Run setup.sh
 
 ## Usage
-java Main <directory_name>
+
+1) Go inside the "CDL" directory.
+2) java -cp ./bin main.Main <directory_name>
 
 ## Possible improvements
 These are improvements I though of but did not have time to implement.
